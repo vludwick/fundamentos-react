@@ -1,12 +1,14 @@
-/* eslint-disable import/no-anonymous-default-export */
-export default [
-  { id: 1, nome: "celular", preco: 1500 },
-  { id: 2, nome: "mouse", preco: 150 },
-  { id: 3, nome: "teclado", preco: 250 },
-  { id: 4, nome: "fone", preco: 550 },
-  { id: 5, nome: "computador", preco: 7460 },
-  { id: 6, nome: "cabo usb", preco: 70 },
-  { id: 7, nome: "monitor", preco: 1400 },
-  { id: 8, nome: "caixa de som", preco: 700 },
-  { id: 9, nome: "controle de videogame", preco: 400 },
+const produtos = [
+  { id: 1, nome: "Caneta", preco: 2.99 },
+  { id: 2, nome: "Lapis", preco: 1.99 },
+  { id: 3, nome: "iPad", preco: 5899.99 },
+  { id: 4, nome: "Samsung S20 Ultra", preco: 6599.99 },
+  { id: 5, nome: "Notebook", preco: 3409.99 },
+  { id: 6, nome: "Caderno", preco: 19.99 },
+  { id: 7, nome: "Borracha", preco: 4.99 },
+  { id: 8, nome: "Impressora", preco: 889.99 },
+  { id: 9, nome: "Monitor 27", preco: 799.9912334 },
+  { id: 10, nome: "Cadeira", preco: 1239.99 },
 ];
+
+export default produtos;
