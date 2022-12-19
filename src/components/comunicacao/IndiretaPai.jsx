@@ -1,15 +1,16 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React from "react";
+import React, { useState } from "react";
 import IndiretaFilho from "./IndiretaFilho";
 
 export default (props) => {
-  let nome = "?";
-  let idade = 0;
-  let nerd = false;
-  function fornecerInformacoes(nomeParam, idadeParam, nerdParam) {
-    nome = nomeParam;
-    idade = idadeParam;
-    nerd = nerdParam;
+  const [nome, setNome] = useState("?");
+  const [idade, setCidade] = useState(0);
+  const [nerd, setNerd] = useState(false);
+
+  function fornecerInformacoes(nome, idade, nerd) {
+    setNome(nome);
+    setCidade(idade);
+    setNerd(nerd);
   }
 
   return (
