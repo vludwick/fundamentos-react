@@ -24,8 +24,8 @@ export default () => (
   <div className="app">
     <h1>Fundamentos React</h1>
     <div className="cards">
-      <Card titulo="#13 MegaSena">
-        <Mega />
+      <Card titulo="#13 Mega" color="#B9006E">
+        <Mega qtde={8} />
       </Card>
       <Card titulo="#12 Contador" color="#424242">
         <Contador numeroInicial={10} />
